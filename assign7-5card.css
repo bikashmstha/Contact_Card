@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #AFA198;
+	color: #344764;
+	font-family: 'Work Sans' sans-serif;
+	box-sizing: border-box;
+}
+/*header styling*/
+#header {
+	background-color: #D6CCC5;
+	margin: 0 auto;
+	padding: 60px;
+	box-sizing: border-box;
+	width: 100%;
+	border-bottom: 4px solid #8C7C71;
+}
+#header h1 {
+	font-size: 44px;
+	color: #CF6113;
+}
+#header p {
+	font-size: 20px;
+	padding: 10px 20px;
+}
+/*form styling*/
+#form {
+	width: 380px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	font-size: 18px;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 20px;
+}
+#form h1 {
+	border-bottom: 2px solid #8C7C71;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+#form form {
+	padding-top: 10px;
+}
+input[type="text"] {
+	display: block;
+	margin: 10px;
+	width: 90%;
+	font-size: 18px;
+	appearance: none;
+	box-shadow: 4px 4px 0px #8C7C71;
+	border: none;
+	padding: 10px;
+	background-color: #FFF9F6;
+	font-family: 'Work Sans' sans-serif;
+}
+input[type="text"]:focus {
+	outline: none;
+}
+input[type="textarea"] {
+	display: block;
+	margin: 10px;
+	width: 90%;
+	font-size: 18px;
+	appearance: none;
+	box-shadow: 4px 4px 0px #8C7C71;
+	border: none;
+	padding: 10px;
+	background-color: #FFF9F6;
+	font-family: 'Work Sans' sans-serif;
+}
+input[type="textarea"]:focus {
+	outline: none;
+}
+input:focus {
+	outline: 0;
+}
+input[type="submit"] {
+	padding: 15px;
+	background-color: #CF6113;
+	border: 2px solid #F7C065;
+	color: #F7C065;
+	font-weight: bold;
+	font-size: 22px;
+	box-shadow: 4px 4px 0px #8C7C71;
+	font-family: 'Work Sans' sans-serif;
+	font-weight: normal;
+}
+#btn {
+	width: auto;
+	text-align: center;
+	display: block;
+	margin: 30px 0;
+}
+/*cards styling*/
+#cards {
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	box-sizing: border-box;
+	width: 60%;
+	padding: 20px;
+}
+#cards h1 {
+	border-bottom: 2px solid #8C7C71;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.acard {
+	background-color: #D7CBC5;
+	border: 2px solid #8C7C71;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 15px;
+	font-size: 18px;
+	appearance: none;
+	box-shadow: 4px 4px 0px #8C7C71;
+	text-align: center;
+}
