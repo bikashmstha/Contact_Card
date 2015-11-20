@@ -62,10 +62,11 @@ input[type="text"] {
 input[type="text"]:focus {
 	outline: none;
 }
-input[type="textarea"] {
+textarea[type="text"] {
 	display: block;
 	margin: 10px;
 	width: 90%;
+	height: 80px;
 	font-size: 18px;
 	appearance: none;
 	box-shadow: 4px 4px 0px #8C7C71;
@@ -74,7 +75,7 @@ input[type="textarea"] {
 	background-color: #FFF9F6;
 	font-family: 'Work Sans' sans-serif;
 }
-input[type="textarea"]:focus {
+textarea[type="text"]:focus {
 	outline: none;
 }
 input:focus {
