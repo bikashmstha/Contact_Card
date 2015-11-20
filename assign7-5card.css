@@ -81,7 +81,7 @@ textarea[type="text"]:focus {
 input:focus {
 	outline: 0;
 }
-input[type="submit"] {
+button {
 	padding: 15px;
 	background-color: #CF6113;
 	border: 2px solid #F7C065;
@@ -91,6 +91,7 @@ input[type="submit"] {
 	box-shadow: 4px 4px 0px #8C7C71;
 	font-family: 'Work Sans' sans-serif;
 	font-weight: normal;
+	outline: none;
 }
 #btn {
 	width: auto;
@@ -118,10 +119,16 @@ input[type="submit"] {
 	background-color: #D7CBC5;
 	border: 2px solid #8C7C71;
 	margin: 0 auto;
-	margin-top: 10px;
-	padding: 15px;
-	font-size: 18px;
+	margin-top: 30px;
+	padding: 58px;
+	font-size: 28px;
+	box-sizing: border-box;
 	appearance: none;
 	box-shadow: 4px 4px 0px #8C7C71;
 	text-align: center;
+	width: 400px;
+}
+.acard p {
+	margin-top: 8px;
+	font-size: 16px;
 }
