@@ -14,7 +14,7 @@
 #header {
 	background-color: #D6CCC5;
 	margin: 0 auto;
-	padding: 60px;
+	padding: 60px 80px;
 	box-sizing: border-box;
 	width: 100%;
 	border-bottom: 4px solid #8C7C71;
@@ -127,6 +127,7 @@ button {
 	box-shadow: 4px 4px 0px #8C7C71;
 	text-align: center;
 	width: 400px;
+	height: 172px;
 }
 .acard p {
 	margin-top: 8px;
